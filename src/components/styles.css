@@ -48,7 +48,7 @@ form {
 
 .todo-item {
   display: inline-block;
-  font-size: 22px;
+  font-size: 18px;
   width: 250px;
   text-align: left;
 
@@ -62,7 +62,7 @@ form {
 .buttonLi {
   background-color: transparent;
   position: relative;
-  bottom: 30px;
+  bottom: 29px;
   outline: 0;
 
   border: 1px solid #f05e1a;
@@ -75,6 +75,8 @@ form {
 .btn-delete {
   cursor: pointer;
   z-index: 101100;
+  position: relative;
+  right: 10px;
 }
 
 .activeMenu {

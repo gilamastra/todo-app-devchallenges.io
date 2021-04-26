@@ -30,7 +30,7 @@ const Todo = ({
 
       <AiFillCloseSquare
         onClick={() => deleteTodo(todo)}
-        size={78}
+        size={71}
         className="iconDelete btn-delete"
         color="#e65a1a"
       />
