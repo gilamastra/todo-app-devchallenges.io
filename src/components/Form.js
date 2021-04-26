@@ -12,6 +12,10 @@ const Form = ({
   };
   const submitTodoHandler = (e) => {
     e.preventDefault();
+    if (!inputText) {
+      return;
+    }
+
     setTodos([
       ...todos,
       {

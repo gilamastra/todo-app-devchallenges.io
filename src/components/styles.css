@@ -51,14 +51,18 @@ form {
   font-size: 22px;
   width: 250px;
   text-align: left;
+
   padding: 15px 10px;
   cursor: pointer;
+  position: relative;
   text-decoration: none;
 
   background-color: transparent;
 }
 .buttonLi {
   background-color: transparent;
+  position: relative;
+  bottom: 30px;
   outline: 0;
 
   border: 1px solid #f05e1a;
@@ -69,14 +73,8 @@ form {
   position: relative;
 }
 .btn-delete {
-  background-color: transparent;
-  border: 0;
-  outline: 0;
-  text-align: center;
-  position: relative;
-  top: 31px;
-  right: 9px;
   cursor: pointer;
+  z-index: 101100;
 }
 
 .activeMenu {

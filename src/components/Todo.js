@@ -28,13 +28,12 @@ const Todo = ({
         </li>
       </button>
 
-      <button className="btn-delete" onClick={() => deleteTodo(todo)}>
-        <AiFillCloseSquare
-          size={78}
-          className="iconDelete"
-          color="#e65a1a"
-        />
-      </button>
+      <AiFillCloseSquare
+        onClick={() => deleteTodo(todo)}
+        size={78}
+        className="iconDelete btn-delete"
+        color="#e65a1a"
+      />
     </div>
   );
 };
